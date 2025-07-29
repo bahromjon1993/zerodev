@@ -894,7 +894,7 @@ header {
 
 hr{
     color: gray;
-    margin-top: 250px;
+    margin-top: 200px;
 }
 .footer{
     border-radius: 30px;
@@ -922,7 +922,8 @@ hr{
     margin-left: -150px;
     float: left;
     width: 700px;
-    margin-top: 100px;
+    margin-top: 30px;
+    padding-left: 20%;
     /* border: 2px solid white; */
 }
 .mail, .loc{
