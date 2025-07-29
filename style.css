@@ -132,7 +132,7 @@ button a{
 }
 .code{
     float: left;
-    width: 50%;
+    width: 30%;
     height: 200px;
 }
 .code pre{
@@ -145,7 +145,11 @@ button a{
     backdrop-filter: blur(20px);
     background-color: rgba(28, 28, 40, 0.7);
 }
+.info {
+    width: 40%;
+}
 .info h4{
+    padding-left: 20%;
     font-size: 22px;
     margin-bottom: 20px;
     color: rgb(0, 255, 229);
@@ -153,11 +157,13 @@ button a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .info h1{
+    padding-left: 20%;
     font-size: 50px;
     font-family: sans-serif;
     color: white;
 }
 .info p{
+    padding-left: 20%;
     color: gray;
     font-size: 23px;
     font-weight: 100;
@@ -182,6 +188,7 @@ button a{
     position: relative;
     overflow: hidden;
     z-index: 1;
+    margin-left: 20%;
 }
 
 .btn1::before {
